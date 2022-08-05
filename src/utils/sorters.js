@@ -3,7 +3,7 @@ const alphaComparator = (a, b) => (a[0] === b[0]) ? 0 : (a[0] < b[0]) ? -1 : 1
 module.exports = {
     /**
      * Sorts the given 2-D array by order of female > male and ascending surname respectively
-     * 
+     *
      * @param {string[][]} records a 2-D array of formatted row/col data
      * @returns {string[][]} a sorted 2-D array of formatted row/col data
      */
@@ -15,7 +15,7 @@ module.exports = {
     },
     /**
      * Sorts the given 2-D array by order of date and ascending surname respectively
-     * 
+     *
      * @param {string[][]} records a 2-D array of formatted row/col data
      * @returns {string[][]} a sorted 2-D array of formatted row/col data
      */
@@ -27,8 +27,8 @@ module.exports = {
     },
     /**
      * Sorts the given 2-D array by order of descending surname
-     * 
-     * @param {string[][]} records a 2-D array of formatted row/col data 
+     *
+     * @param {string[][]} records a 2-D array of formatted row/col data
      * @returns {string[][]} a sorted 2-D array of formatted row/col data
      */
     sortBySurnameDesc: records => {
