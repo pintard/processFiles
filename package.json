@@ -1,0 +1,16 @@
+{
+  "name": "coding_assessment",
+  "version": "1.0.0",
+  "description": "This CLI tool requires the installation of NodeJS.",
+  "main": "main.js",
+  "scripts": {
+    "main": "node src/main.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
